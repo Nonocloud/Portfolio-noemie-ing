@@ -1,0 +1,27 @@
+        figcaption{
+            display:none;
+        }
+        h3 {
+            color : #520d52a1
+        }
+        h1 {
+            color :#230223a1
+        }
+        h2 {
+            color : #520d52a1
+        }
+        body {
+            background-color: rgb(227, 224, 232);
+        }
+        footer{
+            background-color: #520a52a1;
+            padding: 15px;
+            width : 100%;
+            box-sizing: border-box;
+        }
+        footer{
+            text-align: center;
+        }
+        strong {
+            color : #4b1f4bdd
+        }
