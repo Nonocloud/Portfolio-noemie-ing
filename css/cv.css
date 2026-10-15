@@ -1,7 +1,24 @@
-        figure {
-        border: 4px solid rgba(104, 11, 104, 0.544);
-         width : 200px
-        }
-        img{
-            width:100%;
-        }
+figure {
+  border: 4px solid rgba(104, 11, 104, 0.544);
+  width: 200px;
+}
+img {
+  width: 100%;
+}
+#liencv a {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  background-color: rgb(212, 105, 224);
+  color: white;
+  border: none;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+}
+#liencv a:hover {
+  background-color: rgb(65, 228, 201);
+  transform: scale(1.1);
+}
