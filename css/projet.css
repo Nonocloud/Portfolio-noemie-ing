@@ -1,10 +1,21 @@
-         figure {
-            border: 4px solid rgba(104, 11, 104, 0.544);
-            width : 200px
-        }
-        img{
-            width: 100%;
-        }
-        figcaption{
-            display:none;
-        }
+img {
+  width: 100%;
+}
+figcaption {
+  display: none;
+}
+.Aelie {
+  grid-area: Aelie;
+}
+.p1 {
+  grid-area: p1;
+}
+article {
+  display: grid;
+  grid-template-areas: "p1 Aelie";
+  grid-template-columns: 1fr 1fr;
+}
+
+article:nth-of-type(even) {
+  grid-template-areas: "Aelie p1";
+}

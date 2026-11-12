@@ -47,6 +47,9 @@ header nav li:hover {
 header nav li {
   display: inline-block;
 }
+header nav a:active {
+  color: rgb(225, 130, 231);
+}
 header {
   text-align: center;
 }
